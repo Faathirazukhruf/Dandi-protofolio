@@ -25,17 +25,17 @@ const About = () => {
                         className="space-y-6"
                     >
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                            Dedicated General Affairs Professional
+                            Dedicated Continuous Improvement Professional
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg">
-                            I am a Management Graduate (S1) with a strong focus on General Affairs and Operational Efficiency.
-                            My background equips me with the organizational skills necessary to manage office facilities,
-                            handle procurement, and ensure a productive work environment.
+                            I am a Management Graduate (S1) with a strong focus on Continuous Improvement and Operational Excellence.
+                            My background equips me with the analytical skills necessary to identify process gaps,
+                            implement Lean methodologies, and drive sustainable growth.
                         </p>
                         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                            I pride myself on my ability to solve problems proactively and maintain seamless operations.
-                            Whether it's vendor management, inventory control, or administrative support, I am committed to
-                            delivering excellence in every task.
+                            I pride myself on my ability to solve complex problems through data-driven approaches.
+                            Whether it's streamlining workflows, reducing operational costs, or fostering a culture of 
+                            Kaizen, I am committed to delivering measurable value to the organization.
                         </p>
                     </motion.div>
 
@@ -51,10 +51,10 @@ const About = () => {
                             className="p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg dark:hover:shadow-slate-700/50 transition-all"
                         >
                             <div className="w-12 h-12 bg-primary/10 dark:bg-blue-500/10 rounded-lg flex items-center justify-center text-primary dark:text-blue-400 mb-4">
-                                <Target size={24} />
+                                <TrendingUp size={24} />
                             </div>
-                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Strategic Planning</h4>
-                            <p className="text-gray-600 dark:text-gray-400">Aligning general affairs activities with broader organizational goals for maximum impact.</p>
+                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Process Optimization</h4>
+                            <p className="text-gray-600 dark:text-gray-400">Applying Lean and Six Sigma principles to eliminate waste and maximize efficiency.</p>
                         </motion.div>
 
                         <motion.div
@@ -64,8 +64,8 @@ const About = () => {
                             <div className="w-12 h-12 bg-accent/10 dark:bg-sky-500/10 rounded-lg flex items-center justify-center text-accent dark:text-sky-400 mb-4">
                                 <Users size={24} />
                             </div>
-                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Team Collaboration</h4>
-                            <p className="text-gray-600 dark:text-gray-400">Working effectively across departments to support all staff requirements.</p>
+                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Kaizen Culture</h4>
+                            <p className="text-gray-600 dark:text-gray-400">Inspiring teams to adopt a mindset of continuous development and collective growth.</p>
                         </motion.div>
                     </motion.div>
                 </div>

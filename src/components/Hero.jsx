@@ -7,9 +7,9 @@ const Hero = () => {
         <section id="home" className="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900 overflow-hidden relative">
 
             {/* Background Decor - Animated Blobs */}
-            <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-accent/20 dark:bg-sky-500/10 rounded-full blur-3xl animate-blob mix-blend-multiply dark:mix-blend-screen" />
-            <div className="absolute top-0 left-0 w-1/3 h-1/3 bg-purple-300/20 dark:bg-purple-500/10 rounded-full blur-3xl animate-blob animation-delay-2000 mix-blend-multiply dark:mix-blend-screen" />
-            <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-primary/10 dark:bg-blue-500/10 rounded-full blur-3xl animate-blob animation-delay-4000 mix-blend-multiply dark:mix-blend-screen" />
+            <div className="absolute top-[-10%] right-[-5%] w-[400px] h-[400px] bg-sky-400/20 dark:bg-sky-500/20 rounded-full blur-[100px] animate-blob mix-blend-multiply dark:mix-blend-screen opacity-50" />
+            <div className="absolute bottom-[-10%] left-[-5%] w-[400px] h-[400px] bg-purple-400/20 dark:bg-purple-500/20 rounded-full blur-[100px] animate-blob animation-delay-2000 mix-blend-multiply dark:mix-blend-screen opacity-50" />
+            <div className="absolute top-[20%] left-[20%] w-[300px] h-[300px] bg-blue-400/10 dark:bg-blue-500/10 rounded-full blur-[80px] animate-blob animation-delay-4000 mix-blend-multiply dark:mix-blend-screen opacity-30" />
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -25,17 +25,17 @@ const Hero = () => {
                             transition={{ delay: 0.2 }}
                             className="inline-block px-4 py-2 rounded-full bg-accent/10 dark:bg-sky-500/10 text-accent dark:text-sky-400 font-medium text-sm mb-6 border border-accent/20 dark:border-sky-500/20"
                         >
-                            General Affairs Professional
+                            Staff Continuous Improvement Profesional
                         </motion.div>
-                        <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+                        <h1 className="text-6xl md:text-8xl font-extrabold text-gray-900 dark:text-white mb-6 tracking-tight leading-[1.1]">
                             Hi, I'm <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent dark:from-sky-300 dark:to-blue-500">
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 via-blue-500 to-indigo-600 dark:from-sky-300 dark:via-blue-400 dark:to-indigo-300">
                                 Dandi Juana
                             </span>
                         </h1>
                         <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-lg leading-relaxed">
-                            Management Graduate specialized in General Affairs.
-                            Streamlining specific operations and ensuring efficient workplace management.
+                            Management Graduate specialized in Continuous Improvement. 
+                            Dedicated to optimizing processes, reducing waste, and driving operational excellence through data-driven strategies.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">

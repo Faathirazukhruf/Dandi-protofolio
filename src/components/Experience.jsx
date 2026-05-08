@@ -3,16 +3,16 @@ import { Briefcase, Calendar } from 'lucide-react';
 
 const experiences = [
     {
-        title: "Management Staff / General Affairs",
+        title: "Staff Continuous Improvement",
         company: "Dipa Pharmalab Intersains-Manufacturing grup",
         period: "2024 - Present",
-        description: "Managed office supplies inventory, coordinated building maintenance, and assisted in vendor procurement processes. Ensured compliance with workplace safety regulations."
+        description: "Leading process optimization initiatives using Lean and Six Sigma methodologies. Responsible for identifying waste, conducting root cause analysis, and implementing sustainable improvements to increase production efficiency."
     },
     {
         title: "Bachelor of Management",
         company: "University Swadaya Gunung Jati",
         period: "2020 - 2024",
-        description: "Graduated with focused studies in Operational Management and Human Resources. Active in student organization managing event logistics."
+        description: "Specialized in Operational Management with a focus on supply chain efficiency and organizational behavior. Actively applied analytical frameworks to real-world business cases."
     }
 ];
 

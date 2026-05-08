@@ -2,22 +2,22 @@ import { motion } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
 
 const skills = [
-    "Office Management",
-    "Procurement & Purchasing",
-    "Vendor Management",
-    "Inventory Control",
-    "Facility Maintenance",
-    "Health & Safety (K3)",
-    "Asset Management",
-    "Administrative Support",
-    "Budget Planning",
-    "Event Coordination",
-    "Cost Control",
+    "Lean Management",
+    "Analisis SWOT",
+    "Kaizen (Continuous Development)",
+    "Root Cause Analysis (RCA)",
+    "PDCA Cycle",
+    "5S / 5R Implementation",
+    "Process Mapping",
+    "Total Quality Management",
+    "Waste Identification (DOWNTIME)",
+    "Operational Excellence",
+    "Statistical Process Control",
+    "Project Management",
+    "Data Analysis",
     "Problem Solving",
-    "Microsoft Office",
-    "Accurate",
-    "Tax reporting",
-    "Legal"
+    "Microsoft Office Specialist",
+    "SOP Development"
 ];
 
 const container = {
