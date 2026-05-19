@@ -52,6 +52,7 @@ const Navbar = () => {
         { name: 'Home', to: 'home', offset: -80 },
         { name: 'About', to: 'about', offset: -60 },
         { name: 'Skills', to: 'skills', offset: -60 },
+        { name: 'Certifications', to: 'certifications', offset: -60 },
         { name: 'Experience', to: 'experience', offset: -60 },
         { name: 'Contact', to: 'contact', offset: -60 },
     ];

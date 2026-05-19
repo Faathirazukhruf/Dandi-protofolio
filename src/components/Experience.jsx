@@ -3,10 +3,10 @@ import { Briefcase, Calendar } from 'lucide-react';
 
 const experiences = [
     {
-        title: "Staff Continuous Improvement",
+        title: "Specialist General Affair",
         company: "Dipa Pharmalab Intersains-Manufacturing grup",
         period: "2024 - Present",
-        description: "Leading process optimization initiatives using Lean and Six Sigma methodologies. Responsible for identifying waste, conducting root cause analysis, and implementing sustainable improvements to increase production efficiency."
+        description: "Responsible for managing day-to-day office operations, facility maintenance, vendor coordination, and asset lifecycle management. Successfully implemented workplace safety standards (5S/K3) and optimized operational costs through effective procurement policies."
     },
     {
         title: "Bachelor of Management",

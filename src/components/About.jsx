@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Target, Users, TrendingUp } from 'lucide-react';
+import { Building2, Handshake, Users } from 'lucide-react';
 
 const About = () => {
     return (
@@ -25,17 +25,17 @@ const About = () => {
                         className="space-y-6"
                     >
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                            Dedicated Continuous Improvement Professional
+                            Dedicated General Affair Specialist
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg">
-                            I am a Management Graduate (S1) with a strong focus on Continuous Improvement and Operational Excellence.
-                            My background equips me with the analytical skills necessary to identify process gaps,
-                            implement Lean methodologies, and drive sustainable growth.
+                            I am a Management Graduate (S1) with a strong focus on General Affairs and Operational Excellence.
+                            My background equips me with the organizational and management skills necessary to coordinate facilities,
+                            manage asset lifecycles, oversee vendor relations, and drive workplace efficiency.
                         </p>
                         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                            I pride myself on my ability to solve complex problems through data-driven approaches.
-                            Whether it's streamlining workflows, reducing operational costs, or fostering a culture of 
-                            Kaizen, I am committed to delivering measurable value to the organization.
+                            I pride myself on my ability to solve complex administrative and facility challenges.
+                            Whether it's optimizing office resources, reducing operational overhead, or ensuring full
+                            compliance with company safety standards, I am committed to delivering reliable, high-quality service.
                         </p>
                     </motion.div>
 
@@ -51,10 +51,10 @@ const About = () => {
                             className="p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg dark:hover:shadow-slate-700/50 transition-all"
                         >
                             <div className="w-12 h-12 bg-primary/10 dark:bg-blue-500/10 rounded-lg flex items-center justify-center text-primary dark:text-blue-400 mb-4">
-                                <TrendingUp size={24} />
+                                <Building2 size={24} />
                             </div>
-                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Process Optimization</h4>
-                            <p className="text-gray-600 dark:text-gray-400">Applying Lean and Six Sigma principles to eliminate waste and maximize efficiency.</p>
+                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Asset & Facility Management</h4>
+                            <p className="text-gray-600 dark:text-gray-400">Ensuring optimal maintenance of workplace infrastructure and efficient asset lifecycle management.</p>
                         </motion.div>
 
                         <motion.div
@@ -62,10 +62,10 @@ const About = () => {
                             className="p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg dark:hover:shadow-slate-700/50 transition-all"
                         >
                             <div className="w-12 h-12 bg-accent/10 dark:bg-sky-500/10 rounded-lg flex items-center justify-center text-accent dark:text-sky-400 mb-4">
-                                <Users size={24} />
+                                <Handshake size={24} />
                             </div>
-                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Kaizen Culture</h4>
-                            <p className="text-gray-600 dark:text-gray-400">Inspiring teams to adopt a mindset of continuous development and collective growth.</p>
+                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Vendor & Procurement</h4>
+                            <p className="text-gray-600 dark:text-gray-400">Managing vendor partnerships and procurement processes to ensure high-quality office supplies and services.</p>
                         </motion.div>
                     </motion.div>
                 </div>

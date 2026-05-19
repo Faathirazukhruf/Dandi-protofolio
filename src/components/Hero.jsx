@@ -25,7 +25,7 @@ const Hero = () => {
                             transition={{ delay: 0.2 }}
                             className="inline-block px-4 py-2 rounded-full bg-accent/10 dark:bg-sky-500/10 text-accent dark:text-sky-400 font-medium text-sm mb-6 border border-accent/20 dark:border-sky-500/20"
                         >
-                            Staff Continuous Improvement Profesional
+                            Specialist General Affair
                         </motion.div>
                         <h1 className="text-6xl md:text-8xl font-extrabold text-gray-900 dark:text-white mb-6 tracking-tight leading-[1.1]">
                             Hi, I'm <br />
@@ -34,8 +34,8 @@ const Hero = () => {
                             </span>
                         </h1>
                         <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-lg leading-relaxed">
-                            Management Graduate specialized in Continuous Improvement. 
-                            Dedicated to optimizing processes, reducing waste, and driving operational excellence through data-driven strategies.
+                            Management Graduate specialized in General Affairs. 
+                            Dedicated to managing facility operations, vendor relations, asset lifecycle, and office administration to ensure maximum workplace efficiency.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">
