@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Award, FileText, Cpu, CheckSquare } from 'lucide-react';
+import { Award, FileText, Cpu, CheckSquare, ExternalLink } from 'lucide-react';
 
 const certifications = [
     {
@@ -14,14 +14,16 @@ const certifications = [
         issuer: "Taxation & Accounting Institute",
         description: "Official comprehensive tax training certificate covering Indonesian Personal Income Tax (PPh Pasal 21, 25, 29), Corporate Income Tax, Value Added Tax (PPN & PPnBM), and general tax procedures (KUP).",
         icon: FileText,
-        color: "bg-indigo-500/10 text-indigo-600 dark:bg-indigo-400/10 dark:text-indigo-400 border-indigo-200 dark:border-indigo-800/30"
+        color: "bg-indigo-500/10 text-indigo-600 dark:bg-indigo-400/10 dark:text-indigo-400 border-indigo-200 dark:border-indigo-800/30",
+        link: "https://drive.google.com/file/d/1Rx-nDdZZxDNVm3CRT4m_PAv5fz6lRTuA/view"
     },
     {
         title: "Certified Accurate Professional (CAP)",
         issuer: "PT. Ultima Tekno Solusindo",
         description: "Professional certification validating high-level proficiency in Accurate Accounting Software, financial statement preparation, data setup, and digital accounting operations.",
         icon: Cpu,
-        color: "bg-purple-500/10 text-purple-600 dark:bg-purple-400/10 dark:text-purple-400 border-purple-200 dark:border-purple-800/30"
+        color: "bg-purple-500/10 text-purple-600 dark:bg-purple-400/10 dark:text-purple-400 border-purple-200 dark:border-purple-800/30",
+        link: "https://bit.ly/SERTIFIKATACCURATEDANDI"
     }
 ];
 
@@ -67,12 +69,20 @@ const Certifications = () => {
                 >
                     {certifications.map((cert, index) => {
                         const IconComponent = cert.icon;
+                        const CardComponent = cert.link ? motion.a : motion.div;
+                        const cardProps = cert.link ? {
+                            href: cert.link,
+                            target: "_blank",
+                            rel: "noopener noreferrer"
+                        } : {};
+
                         return (
-                            <motion.div
+                            <CardComponent
                                 key={index}
                                 variants={item}
                                 whileHover={{ y: -8 }}
-                                className="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 hover:shadow-xl dark:hover:shadow-slate-900/50 transition-all duration-300 flex flex-col justify-between"
+                                {...cardProps}
+                                className={`bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 hover:shadow-xl dark:hover:shadow-slate-900/50 transition-all duration-300 flex flex-col justify-between ${cert.link ? 'cursor-pointer' : ''}`}
                             >
                                 <div>
                                     <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-6 border ${cert.color}`}>
@@ -88,11 +98,19 @@ const Certifications = () => {
                                         {cert.description}
                                     </p>
                                 </div>
-                                <div className="mt-6 pt-4 border-t border-slate-50 dark:border-slate-800/50 flex items-center gap-2 text-xs font-semibold text-gray-400 dark:text-gray-500">
-                                    <CheckSquare size={14} className="text-green-500" />
-                                    Verified Professional Credential
+                                <div className="mt-6 pt-4 border-t border-slate-50 dark:border-slate-800/50 flex items-center justify-between text-xs font-semibold text-gray-400 dark:text-gray-500">
+                                    <div className="flex items-center gap-2">
+                                        <CheckSquare size={14} className="text-green-500" />
+                                        Verified Professional Credential
+                                    </div>
+                                    {cert.link && (
+                                        <span className="text-accent dark:text-sky-400 hover:underline flex items-center gap-1 font-medium">
+                                            View Certificate
+                                            <ExternalLink size={12} />
+                                        </span>
+                                    )}
                                 </div>
-                            </motion.div>
+                            </CardComponent>
                         );
                     })}
                 </motion.div>
