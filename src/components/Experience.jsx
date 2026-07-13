@@ -3,10 +3,16 @@ import { Briefcase, Calendar } from 'lucide-react';
 
 const experiences = [
     {
-        title: "Specialist General Affair",
-        company: "Dipa Pharmalab Intersains-Manufacturing grup",
-        period: "2024 - Present",
-        description: "Responsible for managing day-to-day office operations, facility maintenance, vendor coordination, and asset lifecycle management. Successfully implemented workplace safety standards (5S/K3) and optimized operational costs through effective procurement policies."
+        title: "Supporting Staff",
+        company: "PT Dipa Pharmalab Intersains (Majalengka, Indonesia)",
+        period: "December 2024 - Present",
+        description: [
+            "Administer financial documents, including invoices, payment requests, reimbursement records, and supporting documentation, ensuring complete and accurate financial records.",
+            "Record, monitor, and reconcile operational expenses while preparing periodic financial summaries for management reporting.",
+            "Coordinate with vendors regarding invoices, billing documentation, payment status, and administrative requirements.",
+            "Maintain financial filing systems and ensure proper document control for finance and audit purposes.",
+            "Prepare operational reports, KPI reports, and risk assessment reports to support management evaluation & Assist in budget monitoring and expense control to ensure efficient operational spending."
+        ]
     },
     {
         title: "Bachelor of Management",
@@ -56,9 +62,19 @@ const Experience = () => {
                                 {exp.company}
                             </div>
 
-                            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                                {exp.description}
-                            </p>
+                            {Array.isArray(exp.description) ? (
+                                <ul className="list-disc list-outside ml-4 space-y-2 text-gray-600 dark:text-gray-300">
+                                    {exp.description.map((bullet, i) => (
+                                        <li key={i} className="leading-relaxed">
+                                            {bullet}
+                                        </li>
+                                    ))}
+                                </ul>
+                            ) : (
+                                <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+                                    {exp.description}
+                                </p>
+                            )}
                         </motion.div>
                     ))}
                 </div>
