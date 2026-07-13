@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Building2, Handshake, Users } from 'lucide-react';
+import { Calculator, ShieldCheck } from 'lucide-react';
 
 const About = () => {
     return (
@@ -25,17 +25,13 @@ const About = () => {
                         className="space-y-6"
                     >
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                            Dedicated General Affair Specialist
+                            Financial Management Graduate
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg">
-                            I am a Management Graduate (S1) with a strong focus on General Affairs and Operational Excellence.
-                            My background equips me with the organizational and management skills necessary to coordinate facilities,
-                            manage asset lifecycles, oversee vendor relations, and drive workplace efficiency.
+                            I am a Financial Management graduate with experience in finance administration, accounting support, taxation, budgeting, and business operations within the manufacturing industry.
                         </p>
                         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                            I pride myself on my ability to solve complex administrative and facility challenges.
-                            Whether it's optimizing office resources, reducing operational overhead, or ensuring full
-                            compliance with company safety standards, I am committed to delivering reliable, high-quality service.
+                            I possess strong knowledge of financial reporting, accounts payable, expense control, tax administration, and internal controls. Certified in Accurate Professional (CAP) and Brevet Tax A & B, I am committed to delivering accurate financial information, ensuring regulatory compliance, and supporting business growth through effective financial management.
                         </p>
                     </motion.div>
 
@@ -51,10 +47,10 @@ const About = () => {
                             className="p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg dark:hover:shadow-slate-700/50 transition-all"
                         >
                             <div className="w-12 h-12 bg-primary/10 dark:bg-blue-500/10 rounded-lg flex items-center justify-center text-primary dark:text-blue-400 mb-4">
-                                <Building2 size={24} />
+                                <Calculator size={24} />
                             </div>
-                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Asset & Facility Management</h4>
-                            <p className="text-gray-600 dark:text-gray-400">Ensuring optimal maintenance of workplace infrastructure and efficient asset lifecycle management.</p>
+                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Finance & Accounting</h4>
+                            <p className="text-gray-600 dark:text-gray-400">Providing accurate financial reporting, bookkeeping, accounts payable/receivable, and cash flow management.</p>
                         </motion.div>
 
                         <motion.div
@@ -62,10 +58,10 @@ const About = () => {
                             className="p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg dark:hover:shadow-slate-700/50 transition-all"
                         >
                             <div className="w-12 h-12 bg-accent/10 dark:bg-sky-500/10 rounded-lg flex items-center justify-center text-accent dark:text-sky-400 mb-4">
-                                <Handshake size={24} />
+                                <ShieldCheck size={24} />
                             </div>
-                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Vendor & Procurement</h4>
-                            <p className="text-gray-600 dark:text-gray-400">Managing vendor partnerships and procurement processes to ensure high-quality office supplies and services.</p>
+                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Taxation & Compliance</h4>
+                            <p className="text-gray-600 dark:text-gray-400">Ensuring full tax compliance, administering VAT (PPN) and Income Tax (PPh), and maintaining robust internal controls.</p>
                         </motion.div>
                     </motion.div>
                 </div>

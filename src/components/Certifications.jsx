@@ -56,7 +56,7 @@ const Certifications = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Licenses & Certifications</h2>
                     <div className="w-20 h-1 bg-accent dark:bg-sky-500 mx-auto rounded-full mb-4" />
                     <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                        Professional credentials and specialized certifications validating expertise in General Affairs, Taxation, and Accounting Software.
+                        Professional credentials and specialized certifications validating expertise in Financial Management, Taxation, and Accounting Software.
                     </p>
                 </motion.div>
 
