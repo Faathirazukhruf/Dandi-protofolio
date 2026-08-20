@@ -25,13 +25,16 @@ const About = () => {
                         className="space-y-6"
                     >
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                            Financial Management Graduate
+                            Financial Management Professional
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg">
-                            I am a Financial Management graduate with experience in finance administration, accounting support, taxation, budgeting, and business operations within the manufacturing industry.
+                            Financial Management professional with experience in Operational Management, PDCA &amp; Continuous Improvement, Asset &amp; Facility Management, Finance &amp; Accounting Administration, Budget &amp; RAB Monitoring, Procurement &amp; Vendor Management, and Audit, CAPA &amp; Documentation.
                         </p>
-                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                            I possess strong knowledge of financial reporting, accounts payable, expense control, tax administration, and internal controls. Certified in Accurate Professional (CAP) and Brevet Tax A & B, I am committed to delivering accurate financial information, ensuring regulatory compliance, and supporting business growth through effective financial management.
+                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg mt-4">
+                            Skilled in translating management direction into action plans, project monitoring, KPI tracking, risk identification, cross-functional coordination, and management reporting to support effective decision-making and operational control.
+                        </p>
+                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg mt-4">
+                            Focused on operational efficiency, resource optimization, cost control, and sustainable continuous improvement.
                         </p>
                     </motion.div>
 
